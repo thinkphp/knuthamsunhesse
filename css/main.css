@@ -1,0 +1,164 @@
+html, body { width:100%; height:100%; margin:0; padding:0; -webkit-font-smoothing:antialiased }
+
+body { position:relative;
+       font-family:'source sans pro', serif;
+       font-weight:400;
+       min-height:100%;
+       display:-webkit-flex;
+       display:-ms-flexbox;
+       display:flex;
+       -webkit-flex-direction:column;
+       -ms-flex-direction:column;
+       flex-direction:column;
+       -webkit-justify-content:flex-start;
+       -ms-flex-pack:start;
+       justify-content:flex-start;
+      -webkit-align-items:center;
+      -ms-flex-align:center;
+      align-items:center}
+
+.top {background-color:#fff}
+.top,.bottom{-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}
+
+.content-container {position:relative;
+                    width:100%;
+                    background-color: #33CCFF;
+                    display:-webkit-flex;
+                    display:-ms-flexbox;
+                    display:flex;
+                    -webkit-justify-content:center;
+                    -ms-flex-pack:center;
+                    justify-content:center;
+                    -webkit-flex:0 0 auto;
+                    -ms-flex:0 0 auto;flex:0 0 auto}
+
+.content-container:before{content:'';position:absolute;left:0;top:0;background-color:#fff;width:100%;height:92px}
+
+@media only screen and (max-width:360px) {
+
+       .content-container:before{height:76px}
+
+}
+
+.content {position:relative;
+          padding:24px;
+          width:300px;
+          color:rgba(255,255,255,.75);
+          display:-webkit-flex;
+          display:-ms-flexbox;
+          display:flex;
+          -webkit-flex-direction:column;
+          -ms-flex-direction:column;
+          flex-direction:column;
+          font-size:24px;line-height:32px}
+
+.content a {display:inline-block;
+            position:relative;
+            font-weight:500;
+            color:#fff;
+            text-decoration:none;
+            -webkit-transition:-webkit-transform .1s ease-out,text-shadow .1s ease-out,-webkit-filter .1s ease-out;
+            transition:transform .1s ease-out,text-shadow .1s ease-out,-webkit-filter .1s ease-out,-moz-filter .1s ease-out,filter .1s ease-out;
+            -webkit-transform:translateY(0);
+            transform:translateY(0);
+            text-shadow:0 0 0 transparent}
+
+.content a:hover{-webkit-transform:translateY(-2px);
+                 transform:translateY(-2px);
+                 text-shadow:0 1px 1px rgba(0,0,0,.2),0 4px 4px rgba(0,0,0,.1)}
+
+.content p:first-of-type{margin-top:32px}
+
+@media only screen and (max-width:360px){
+
+       .content p:first-of-type{margin-top:24px}
+
+}
+
+.content p:last-of-type{margin-bottom:40px}
+
+@media only screen and (max-width:360px){
+
+       .content p:last-of-type{margin-bottom:32px}
+}
+
+.content p {text-align:center;margin:16px 0}
+
+@media only screen and (max-width:360px){
+
+     .content p{margin:8px}
+
+}
+
+.avatar { width:135px;
+          height:135px;
+          background:url(http://thinkphp.ro/thinkphpro_files/XuProfilePic.jpg);
+          background-size:cover;
+          border-radius:50%;
+          background-color:#525252;
+          -webkit-align-self:center;
+          -ms-flex-item-align:center;
+          align-self:center;
+          border:4px solid #fff}
+
+@media only screen and (max-width:360px){
+
+       .avatar{width:96px;height:96px}
+}
+
+@media only screen and (max-width:360px){
+
+.avatar{border:4px solid #fff}
+
+}
+
+.icons{display:-webkit-flex;
+       display:-ms-flexbox;
+       display:flex;
+       -webkit-flex-direction:row;
+       -ms-flex-direction:row;
+       flex-direction:row;
+       -webkit-justify-content:space-between;
+       -ms-flex-pack:justify;
+       justify-content:space-between;
+       margin:0 -8px}
+
+
+@media only screen and (max-width:360px){
+
+ .icons{margin:0}
+
+}
+
+.icons a { display:block;
+           width:32px;
+           height:32px;
+           padding:8px;
+           background-repeat:no-repeat;
+           background-position:50% 50%;
+           background-size:32px 32px;
+           -webkit-filter:drop-shadow(0 0 0 transparent);
+           filter:drop-shadow(0 0 0 transparent)
+}
+
+@media only screen and (max-width:360px){
+
+       .icons a{background-size:24px 24px}
+
+}
+
+.icons a:hover { -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.2)) drop-shadow(0 4px 4px rgba(0,0,0,.1) );
+
+filter: drop-shadow(0 1px 1px rgba(0,0,0,.2))drop-shadow(0 4px 4px rgba(0,0,0,.1))}
+
+.icons .twitter{background-image:url(http://thinkphp.ro/svg/twitter.svg)}
+.icons .github{background-image:url(http://thinkphp.ro/svg/github.svg)}
+.icons .medium{background-image:url(http://roman.nurik.net/images/icon_medium.svg)}
+.icons .googleplus{background-image:url(http://roman.nurik.net/images/icon_googleplus.svg)}
+.icons .email{background-image:url(http://roman.nurik.net/images/icon_email.svg)}
+.icons .lastfm{background-image:url(http://thinkphp.ro/svg/lastfm.svg)}
+.icons .linkedin{background-image:url(http://thinkphp.ro/svg/linkedin.svg)}
+.icons .instagram{background-image:url(http://thinkphp.ro/svg/instagram.svg)}
+.icons .flickr{background-image:url(http://thinkphp.ro/svg/flickr.svg)}
+
+.bottom{width:100%;background-color:#00BFA5}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Adrian Statescu - Software Engineer</title>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta name="twitter:site" content="@thinkphp">
+<meta name="application-name" content="adrianstatescu.com">
+<meta name='viewport' content='user-scalable=yes, width=device-width, initial-scale=1'>
+<meta name="description" itemprop="description" content="A front-end developer JavaScript application, A back-end developer PHP application architecture and development, tooling, workflow and more." />
+<meta name="keywords" itemprop="keywords" content="JavaScript, Web Components, DevTools, CSS, Statescu Adrian, Adrian Statescu, adrianstatescu.com, web development, MVC, PHP, HTML5, CSS3, MooTools, jQuery, Dojo, YUI, AngularJS" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Adrian Statescu">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#00BFA5">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="192x192" href="http://thinkphp.ro/thinkphpro_files/XuProfilePic.jpg">
+<link rel="author" href="https://plus.google.com/+AdrianStatescu">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.js"></script>
+<script src="javascript/app.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+<div class="top"></div>
+
+<div class="content-container">
+<div class="content" ng-controller="mainCtrl">
+
+<div class="avatar"></div>
+
+  <p ng-bind-html="who"></p>
+  <p ng-bind-html="founded"></p>
+  <p ng-bind-html="working"></p>
+
+<div class=icons>
+   <a ng-repeat="icon in icons" rel=me href={{icon.hrefLink}} class={{icon.classLink}}></a>
+   <a rel=me class="email obfuscated" data-email={{email}}></a>
+</div>
+
+  <div id="myflickr"></div>
+<div class="bottom">
+  <link rel="stylesheet" href="css/react-flickr.css" />
+  <script src="javascript/react.js"></script>
+  <script src="javascript/JSXTransformer.js"></script>
+  <script src="javascript/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/react-flickr.js" type="text/jsx" ></script>
+ </div>
+
+<div ng-bind-html="angularjs"></div>
+<div ng-bind-html="reactjs"></div>
+<div ng-bind-html="backbonejs"></div>
+<div ng-bind-html="knockoutjs"></div>
+<div ng-bind-html="emberjs"></div>
+
+</div>
+</div>
+
+
+<script src="javascript/email.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11169114-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
