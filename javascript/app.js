@@ -47,17 +47,13 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.emberjs = "<b>EmberJS</b> <a href='http://thinkphp.github.io/ember-todos/'>1</a>"
 
-    $scope.golang = "<b>Go</b> <a href='http://github.com/thinkphp/seeds.go/'>1</a>"
-
-    $scope.toys = "<b>Toys</b> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>1</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>2</a> <a href='http://webster.thinkphp.ro/'>3</a>"
+    $scope.golang = "<b>Go</b> <a href='http://github.com/thinkphp/computer-science-in-go/'>1</a> <a href='http://github.com/thinkphp/seeds.go/'>2</a>"
 
     $scope.cplusplus = "<b>C/C++</b> <a href='https://github.com/thinkphp/computer-science-in-c'>1</a> <a href='https://github.com/thinkphp/fa'>2</a>"
 
-    $scope.Pi = "<b>PI</b> <a href='http://github.com/thinkphp/pi'>1</a> <a href='http://thinkphp.github.com/pi'>2</a> <a href='https://github.com/thinkphp/pi/blob/master/monte_carlo_pi.go'>Monto Carlo</a> <a href='https://github.com/thinkphp/pi/blob/master/leibniz_pi.go'>Leibniz</a>"
-
-    $scope.e = "<b>Euler's Number</b> <a href='https://github.com/thinkphp/e'>1</a> <a href='http://thinkphp.github.com/e'>2</a>"
-
     $scope.ai = "<b>Artificial Intelligence</b> <a href='https://github.com/thinkphp/lisp-training'>LISP</a> <a href='#'>Scheme</a> <a href='#'>Prolog</a> <a href='#'>Haskell</a> <a href='#'>OCaml</a>"
+
+    $scope.toys = "<b>Toys</b> <a href='http://thinkphp.github.com/ln'>log</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a>"
 
   }]);
 
