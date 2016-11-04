@@ -6,9 +6,11 @@ angular.module('myApp', ['ngSanitize'])
 
   .controller('mainCtrl', ['$scope', function($scope) {
 
-    $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://www.cavallioti.ro/carte_detalii.php?carte_id=89&categorie_id=13'>@Probleme Alese</a>.";
+    $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://www.cavallioti.ro/carte_detalii.php?carte_id=89&categorie_id=13'>@Probleme Alese.</a>";
 
-    $scope.founded = "Founded <a href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a href='http://thinkphp.github.com'>programming</a>, <a href='https://www.flickr.com/photos/statescua/albums/72157666447621912'>running</a>, <a href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a href='http://instagram.com/thinkphp'>taking pictures</a>, <a href='https://www.chess.com/members/view/thinkphp'>playing chess</a>";
+    $scope.founded = "Founded <a href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a href='http://thinkphp.github.com'>programming</a>, <a href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a href='http://instagram.com/thinkphp'>taking pictures</a>, <a href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
+
+    $scope.strava = "<a href='http://strava.com/athletes/thinkphp'>Strava</a> activity <a href='https://www.endomondo.com/profile/30985212'>Endomondo</a> Workouts";
 
     $scope.working = "I work at <a href='http://thinkphp.ro'>thinkphp</a>";
 
