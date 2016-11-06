@@ -10,7 +10,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.founded = "Founded <a href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a href='http://thinkphp.github.com'>programming</a>, <a href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a href='http://instagram.com/thinkphp'>taking pictures</a>, <a href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
 
-    $scope.strava = "<a href='http://strava.com/athletes/thinkphp'>Strava</a> activity <a href='https://www.endomondo.com/profile/30985212'>Endomondo</a> Workouts";
+    $scope.strava = "<a href='https://www.endomondo.com/users/30985212/workouts/'>Endomondo</a> Workouts";
 
     $scope.working = "I work at <a href='http://thinkphp.ro'>thinkphp</a>";
 
@@ -22,7 +22,7 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"},
                     {"hrefLink":"http://instagram.com/thinkphp","classLink": "instagram"}] 
 
-    $scope.email = "adrian@thinkphp.ro";
+    $scope.email = "mergesortv@gmail.com";
 
     $scope.angularjs = "<b>AngularJS</b> <a href='http://thinkphp.ro/apps/AngularJS/ng-todo/ng-todo.html'>1</a>" + 
 
