@@ -20,7 +20,8 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"http://thinkphp.ro/+","classLink":"googleplus"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
                     {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"},
-                    {"hrefLink":"http://instagram.com/thinkphp","classLink": "instagram"}] 
+                    {"hrefLink":"http://instagram.com/thinkphp","classLink": "instagram"},
+                    {"hrefLink":"https://ro.pinterest.com/peakuhuru","classLink": "pinterest"}] 
 
     $scope.email = "mergesortv@gmail.com";
 
