@@ -10,7 +10,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.founded = "Founded <a href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a href='http://thinkphp.github.com'>programming</a>, <a href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a href='http://instagram.com/thinkphp'>taking pictures</a>, <a href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
 
-    $scope.strava = "<a href='https://www.endomondo.com/users/30985212/workouts/'>Endomondo</a> Workouts";
+    $scope.strava = "<a target='_clean' href='https://www.endomondo.com/users/30985212/workouts/'>Endomondo</a> Workouts";
 
     $scope.working = "I work at <a href='http://thinkphp.ro'>thinkphp</a>";
 
