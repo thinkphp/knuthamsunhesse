@@ -40,7 +40,6 @@
 
 <div class=icons>
    <a ng-repeat="icon in icons" rel=me href={{icon.hrefLink}} class={{icon.classLink}}></a>
-   <a rel=me class="email obfuscated" data-email={{email}}></a>
 </div>
 
   <div id="myflickr"></div>
@@ -57,6 +56,10 @@
 <div ng-bind-html="backbonejs"></div>
 <div ng-bind-html="knockoutjs"></div>
 <div ng-bind-html="emberjs"></div>
+
+<div class=icons>
+   <a rel=me class="email obfuscated" data-email={{email}}></a>
+</div>
 
 </div>
 </div>

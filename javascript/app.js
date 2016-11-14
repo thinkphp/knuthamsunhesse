@@ -17,6 +17,7 @@ angular.module('myApp', ['ngSanitize'])
     $scope.icons = [{"hrefLink":"https://twitter.com/thinkphp","classLink":"twitter"},
                     {"hrefLink":"https://github.com/thinkphp","classLink":"github"},
                     {"hrefLink":"https://www.linkedin.com/in/statescuadrian","classLink":"linkedin"},
+                    {"hrefLink":"https://www.xing.com/profile/Adrian_Statescu","classLink":"xing"},
                     {"hrefLink":"http://thinkphp.ro/+","classLink":"googleplus"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
                     {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"},
