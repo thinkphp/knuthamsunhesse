@@ -8,11 +8,11 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://www.cavallioti.ro/carte_detalii.php?carte_id=89&categorie_id=13'>@Probleme Alese.</a>";
 
-    $scope.founded = "Founded <a href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a href='http://thinkphp.github.com'>programming</a>, <a href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a href='http://instagram.com/thinkphp'>taking pictures</a>, <a href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
+    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
 
-    $scope.strava = "<a target='_clean' href='https://www.endomondo.com/users/30985212/workouts/'>Endomondo</a> Workouts";
+    $scope.endomondo = "<a target='_clean' href='https://www.endomondo.com/users/30985212/workouts/'>Endomondo</a> Workouts";
 
-    $scope.working = "I work at <a href='http://thinkphp.ro'>thinkphp</a>";
+    $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>";
 
     $scope.icons = [{"hrefLink":"https://twitter.com/thinkphp","classLink":"twitter"},
                     {"hrefLink":"https://github.com/thinkphp","classLink":"github"},
