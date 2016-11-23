@@ -165,3 +165,7 @@ filter: drop-shadow(0 1px 1px rgba(0,0,0,.2))drop-shadow(0 4px 4px rgba(0,0,0,.1
 .icons .xing{background-image:url(http://thinkphp.ro/svg/xing.svg)}
 
 .bottom{width:100%;background-color:#00BFA5}
+
+p.ng-binding a:hover{ visibility:visible; background-color: #1fc2d8; color: #FFF;}
+div.ng-binding a:hover{opacity:.5; visibility:visible; background-color: #1fc2d8; color: #FFF}
+
