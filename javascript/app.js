@@ -6,7 +6,7 @@ angular.module('myApp', ['ngSanitize'])
 
   .controller('mainCtrl', ['$scope', function($scope) {
 
-    $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://www.cavallioti.ro/carte_detalii.php?carte_id=89&categorie_id=13'>@Probleme Alese.</a>";
+    $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese.</a>";
 
     $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
 
