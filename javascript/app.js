@@ -8,9 +8,9 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese.</a>";
 
-    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
+    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess.</a>";
 
-    $scope.endomondo = "Athlete on <a target='_clean' href='http://strava.com/athletes/thinkphp'>Strava</a> & <a target='_clean' href='https://www.endomondo.com/profile/30985212'>Endo</a>";
+    $scope.endomondo = "Athlete on <a target='_clean' href='http://www.strava.com/athletes/thinkphp'>Strava</a> & <a target='_clean' href='https://www.endomondo.com/profile/30985212'>Endo</a>";
 
     $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>";
 
@@ -43,6 +43,8 @@ angular.module('myApp', ['ngSanitize'])
     $scope.knockoutjs = "<b>KnockoutJS</b> <a href='http://thinkphp.github.io/knockout-flickr/'>1</a>" + 
 
                         " <a href='http://thinkphp.github.io/knockout-flickr/search.html'>2</a>"
+
+    $scope.polymerjs = "<b>Polymer</b> <a href='#'>1</a> <a href='#'>2</a> <a href='#'>3</a>"
 
     $scope.emberjs = "<b>EmberJS</b> <a href='http://thinkphp.github.io/ember-todos/'>1</a>"
 
