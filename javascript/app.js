@@ -47,6 +47,8 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.emberjs = "<b>EmberJS</b> <a href='http://thinkphp.github.io/ember-todos/'>1</a>"
 
+    $scope.toys = "<b>Toys</b> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>1</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>2</a> <a href='http://webster.thinkphp.ro/'>3</a>"
+
   }]);
 
 })(window.angular);
