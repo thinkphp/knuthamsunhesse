@@ -55,6 +55,8 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.e = "<b>Euler's Number</b> <a href='https://github.com/thinkphp/e'>1</a> <a href='http://thinkphp.github.com/e'>2</a>"
 
+    $scope.ai = "<b>Artificial Intelligence</b> <a href='https://github.com/thinkphp/lisp-training'>Common LISP</a> <a href='#'>Scheme</a> <a href='#'>Prolog</a> <a href='#'>Haskell</a> <a href='#'>OCaml</a>"
+
   }]);
 
 })(window.angular);
