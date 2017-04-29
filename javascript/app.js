@@ -6,9 +6,9 @@ angular.module('myApp', ['ngSanitize'])
 
   .controller('mainCtrl', ['$scope', function($scope) {
 
-    $scope.who = "Hi, I'm Adrian & build products. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese</a>.";
+    $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese</a>.";
 
-    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://thinkphp.herokuapp.com'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess (over 3308 Blitz)</a>";
+    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://thinkphp.herokuapp.com'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess (over 3550 Blitz)</a>";
     $scope.endomondo = "Athlete on <a target='_clean' href='http://www.strava.com/athletes/thinkphp'>Strava</a> & <a target='_clean' href='https://www.endomondo.com/profile/30985212'>Endo</a>.";
 
     $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>.";
@@ -19,9 +19,7 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"https://www.xing.com/profile/Adrian_Statescu","classLink":"xing"},
                     {"hrefLink":"http://thinkphp.ro/+","classLink":"googleplus"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
-                    {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"},
-                    {"hrefLink":"http://instagram.com/thinkphp","classLink": "instagram"},
-                    {"hrefLink":"https://ro.pinterest.com/peakuhuru","classLink": "pinterest"}] 
+                    {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"}] 
 
     $scope.email = "mergesortv@gmail.com";
 
@@ -51,9 +49,15 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.cplusplus = "<b>C/C++</b> <a href='https://github.com/thinkphp/computer-science-in-c'>1</a> <a href='https://github.com/thinkphp/fa'>2</a>"
 
-    $scope.ai = "<b>Artificial Intelligence</b> <a href='https://github.com/thinkphp/lisp-training'>LISP</a> <a href='#'>Scheme</a> <a href='#'>Prolog</a> <a href='#'>Haskell</a> <a href='#'>OCaml</a>"
+    $scope.python = "<b>Python</b> <a href='http://github.com/thinkphp/computer-science-in-python/'>1</a> <a href='http://github.com/thinkphp/seeds.py/'>2</a>"
 
-    $scope.toys = "<b>Toys</b> <a href='http://thinkphp.github.com/cos'>cos</a> <a href='http://thinkphp.github.com/sin/'>sin</a> <a href='http://thinkphp.github.com/ln'>log</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a>"
+    $scope.ruby = "<b>Ruby</b> <a href='http://github.com/thinkphp/computer-science-in-ruby/'>1</a> <a href='http://github.com/thinkphp/seeds.ruby/'>2</a>"
+
+    $scope.ai = "<u>Artificial Intelligence</u><br/><a href='https://github.com/thinkphp/lisp-training'>LISP</a> <a href='https://github.com/thinkphp/scheme-training'>Scheme</a> <a href='#'>Prolog</a> <a href='https://github.com/thinkphp/haskell-training'>Haskell</a> <a href='#'>OCaml</a>"
+
+    $scope.ProgrammigContestPlatform = "<u>Coding Contest Platform</u><br/><a href='#'>Topcoder</a> <a href='#'>code jam</a> <a href='http://codeforces.com/profile/thinkphp'>Codeforce</a> <a href='https://projecteuler.net/'>Project Euler</a> <a href='#'>Spoj</a> <a href='https://www.hackerrank.com/statescua?hr_r=1'>HackerRank</a> <a href='http://www.infoarena.ro/utilizator/thinkphp'>Infoarena</a> <a href='http://practice.geeksforgeeks.org/user-profile.php?user=thinkphp'>GeeksforGeeks</a> <a href='http://acm.timus.ru/author.aspx?id=228328'>Timus Online Judge</a>"
+
+    $scope.toys = "<u>Toys</u><br/> <a href='http://thinkphp.github.com/sin/'>sin</a> <a href='http://thinkphp.github.com/cos'>cos</a> <a href='http://thinkphp.github.com/ln'>ln</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a>"
 
   }]);
 
