@@ -8,8 +8,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese</a>.";
 
-    $scope.founded = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I'm currently <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://thinkphp.herokuapp.com'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess (over 3550 Blitz)</a>";
-    $scope.endomondo = "Athlete on <a target='_clean' href='http://www.strava.com/athletes/thinkphp'>Strava</a> & <a target='_clean' href='https://www.endomondo.com/profile/30985212'>Endo</a>.";
+    $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I enjoy <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://thinkphp.herokuapp.com'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess (over 3550 Blitz)</a>";
 
     $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>.";
 
@@ -36,6 +35,8 @@ angular.module('myApp', ['ngSanitize'])
        $scope.reactjs = "<b>ReactJS</b> <a href='http://thinkphp.ro/apps/React/react-flickr/'>1</a> <a href='http://thinkphp.github.io/react-todos/'>2</a>"
 
     $scope.backbonejs = "<b>BackboneJS</b> <a href='http://thinkphp.github.io/backbone-flickr/'>1</a>" 
+
+    $scope.vuejs = "<b>Vuejs</b> <a href='http://thinkphp.github.io/vue-todo'>1</a>" 
 
     $scope.knockoutjs = "<b>KnockoutJS</b> <a href='http://thinkphp.github.io/knockout-flickr/'>1</a>" + 
 
