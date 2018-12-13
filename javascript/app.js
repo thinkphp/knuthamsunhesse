@@ -50,6 +50,8 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.cplusplus = "<b>C/C++</b> <a href='https://github.com/thinkphp/computer-science-in-c'>1</a> <a href='https://github.com/thinkphp/fa'>2</a>"
 
+    $scope.PHP = "<b>PHP</b> <a href='https://github.com/thinkphp/computer-science-in-php'>1</a>"
+
     $scope.python = "<b>Python</b> <a href='http://github.com/thinkphp/computer-science-in-python/'>1</a> <a href='http://github.com/thinkphp/seeds.py/'>2</a>"
 
     $scope.ruby = "<b>Ruby</b> <a href='http://github.com/thinkphp/computer-science-in-ruby/'>1</a> <a href='http://github.com/thinkphp/seeds.ruby/'>2</a>"
@@ -58,7 +60,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.ProgrammigContestPlatform = "<u>Coding Contest Platform</u><br/><a href='#'>Topcoder</a> <a href='#'>code jam</a> <a href='http://codeforces.com/profile/thinkphp'>Codeforce</a> <a href='https://projecteuler.net/'>Project Euler</a> <a href='#'>Spoj</a> <a href='https://www.hackerrank.com/statescua?hr_r=1'>HackerRank</a> <a href='http://www.infoarena.ro/utilizator/thinkphp'>Infoarena</a> <a href='http://practice.geeksforgeeks.org/user-profile.php?user=thinkphp'>GeeksforGeeks</a> <a href='http://acm.timus.ru/author.aspx?id=228328'>Timus Online Judge</a>"
 
-    $scope.toys = "<u>Toys</u><br/> <a href='http://thinkphp.github.com/sin/'>sin</a> <a href='http://thinkphp.github.com/cos'>cos</a> <a href='http://thinkphp.github.com/ln'>ln</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a> <a href='https://thinkphp.github.io/wikipedia-viewer/'>Wikipedia Viewer</a>"
+    $scope.toys = "<u>Toys</u><br/> <a href='http://thinkphp.github.com/sin/'>sin</a> <a href='http://thinkphp.github.com/cos'>cos</a> <a href='http://thinkphp.github.com/ln'>ln</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a> <a href='https://thinkphp.github.io/wikipedia-viewer/'>Wikipedia Viewer</a> <a href='https://mytodo.thinkphp.ro'>ToDoApp</a>"
 
   }]);
 
