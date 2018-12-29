@@ -6,9 +6,9 @@ angular.module('myApp', ['ngSanitize'])
 
   .controller('mainCtrl', ['$scope', function($scope) {
 
-    $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://mybook.thinkphp.ro'>@Probleme Alese</a>.";
+    $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://livre.thinkphp.ro'>@Probleme Alese</a>.";
 
-    $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I love <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://thinkphp.herokuapp.com'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess 7933 (3860 W / 3828 L / 245 D Blitz)</a>";
+    $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I love <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://blog.thinkphp.ro'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess 8083 (3932 W / 3897 L / 254 D Blitz)</a>";
 
     $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>.";
 
@@ -18,9 +18,15 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"https://www.xing.com/profile/Adrian_Statescu","classLink":"xing"},
                     {"hrefLink":"http://thinkphp.ro/+","classLink":"googleplus"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
-                    {"hrefLink":"http://thinkphp.ro/apps/lastfm/php/3d-library/","classLink": "lastfm"}] 
+                    {"hrefLink":"http://lastfm2.thinkphp.ro","classLink": "lastfm"}] 
 
     $scope.email = "mergesortv@gmail.com";
+
+    $scope.elm = "<b>Elm</b> <a href='http://github.com/thinkphp/elm'>1</a>" 
+
+    $scope.mp = "<u>Mobile Programming</u><br/><b>Android</b> <a href='#'>1</a> <a href='#'>2</a> <br/> <b>IOS</b> <a href='#'>1</a> <a href='#'>2</a>" 
+
+    $scope.typescript = "<b>TypeScript</b> <a href='http://github.com/thinkphp/typescript'>1</a>" 
 
     $scope.angularjs = "<b>AngularJS</b> <a href='http://thinkphp.ro/apps/AngularJS/ng-todo/ng-todo.html'>1</a>" + 
 
@@ -44,9 +50,13 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.polymerjs = "<b>Polymer</b> <a href='#'>1</a> <a href='#'>2</a> <a href='#'>3</a>"
 
+    $scope.dojo = "<b>Dojo</b> <a href='http://github.com/thinkphp/dojo'>1</a>" 
+
     $scope.emberjs = "<b>EmberJS</b> <a href='http://thinkphp.github.io/ember-todos/'>1</a>"
 
     $scope.golang = "<b>Go</b> <a href='http://github.com/thinkphp/computer-science-in-go/'>1</a> <a href='http://github.com/thinkphp/seeds.go/'>2</a>"
+
+    $scope.Rust = "<u>Algorithms & Data Structures</u><br/><b>Rust</b> <a href='https://github.com/thinkphp/rustwork'>1</a>"
 
     $scope.cplusplus = "<b>C/C++</b> <a href='https://github.com/thinkphp/computer-science-in-c'>1</a> <a href='https://github.com/thinkphp/fa'>2</a>"
 
