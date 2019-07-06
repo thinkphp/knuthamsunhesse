@@ -8,7 +8,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://livre.thinkphp.ro'>@Probleme Alese</a>.";
 
-    $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I love <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://blog.thinkphp.ro'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess 8083 (3932 W / 3897 L / 254 D Blitz)</a>";
+    $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I love <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://blog.thinkphp.ro'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a>, <a target='_clean' href='https://www.chess.com/members/view/thinkphp'>playing chess 10,281 (5,002 W / 4,953 L / 326 D Blitz)</a>";
 
     $scope.working = "I work at <a target='_clean' href='http://thinkphp.ro'>thinkphp</a>.";
 
@@ -16,7 +16,6 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"https://github.com/thinkphp","classLink":"github"},
                     {"hrefLink":"https://www.linkedin.com/in/statescuadrian","classLink":"linkedin"},
                     {"hrefLink":"https://www.xing.com/profile/Adrian_Statescu","classLink":"xing"},
-                    {"hrefLink":"http://thinkphp.ro/+","classLink":"googleplus"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
                     {"hrefLink":"http://lastfm2.thinkphp.ro","classLink": "lastfm"}] 
 
