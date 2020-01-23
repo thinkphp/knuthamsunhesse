@@ -23,7 +23,9 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.elm = "<b>Elm</b> <a href='http://github.com/thinkphp/elm'>1</a>" 
 
-    $scope.mp = "<u>Mobile Programming</u><br/><b>Android</b> <a href='#'>1</a> <a href='#'>2</a> <br/> <b>IOS</b> <a href='#'>1</a> <a href='#'>2</a>" 
+    $scope.elm = "<b>Svelte</b> <a href='http://github.com/thinkphp/svelte'>1</a>" 
+
+    $scope.mp = "<u>Mobile Programming</u><br/><b>Android</b> <a href='#'>1</a> <a href='#'>2</a> <br/> <b>Kotlin</b> <a href='#'>1</a> <a href='#'>2</a>" 
 
     $scope.typescript = "<b>TypeScript</b> <a href='http://github.com/thinkphp/typescript'>1</a>" 
 
