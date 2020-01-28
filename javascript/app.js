@@ -6,7 +6,7 @@ angular.module('myApp', ['ngSanitize'])
 
   .controller('mainCtrl', ['$scope', function($scope) {
 
-    $scope.who = "Hi, I'm Adrian & build products using <a href='http://lang.thinkphp.ro'>languages</a>. Co-author of <a href='http://livre.thinkphp.ro'>@Probleme Alese</a>.";
+    $scope.who = "Hi, I'm Adrian & build products using <a href='https://thinkphp.github.io/languages/'>languages</a>. Co-author of <a href='https://thinkphp.github.io/languages/livre.html'>@Probleme Alese</a>.";
 
     $scope.enjoy = "Founded <a target='_clean' href='http://thinkphp.ro'>@thinkphp</a>. I love <a target='_clean' href='http://thinkphp.github.com'>programming</a>, <a target='_clean' href='http://blog.thinkphp.ro'>blogging</a>, <a target='_clean' href='http://instagram.com/thinkphp' target='_clean'>taking pictures</a>, <a target='_clean' href='http://strava.thinkphp.ro'>running</a>, <a target='_clean' href='http://lastfm.thinkphp.ro'>scrobbling</a>, <a target='_clean' href='https://www.endomondo.com/profile/30985212'>hiking</a> <a target='_clean' href='https://www.chess.com/stats/live/blitz/thinkphp'><img src='css/chesscom.png' width=200></a> <a target='_clean' href='https://lichess.org/@/thinkphp/tournaments/recent'><img src='css/lichess.png' height=100 width=100></a>";
 
