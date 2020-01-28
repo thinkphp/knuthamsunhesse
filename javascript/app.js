@@ -23,7 +23,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.elm = "<b>Elm</b> <a href='http://github.com/thinkphp/elm'>1</a>" 
 
-    $scope.elm = "<b>Svelte</b> <a href='http://github.com/thinkphp/svelte'>1</a>" 
+    $scope.svelte = "<b>Svelte</b> <a href='http://github.com/thinkphp/svelte'>1</a>" 
 
     $scope.mp = "<u>Mobile Programming</u><br/><b>Android</b> <a href='#'>1</a> <a href='#'>2</a> <br/> <b>Kotlin</b> <a href='https://github.com/thinkphp/kotlinwork'>1</a> <a href='#'>2</a>" 
 
@@ -69,7 +69,7 @@ angular.module('myApp', ['ngSanitize'])
 
     $scope.ai = "<u>Artificial Intelligence</u><br/><a href='https://github.com/thinkphp/lisp-training'>LISP</a> <a href='https://github.com/thinkphp/scheme-training'>Scheme</a> <a href='#'>Prolog</a> <a href='https://github.com/thinkphp/haskell-training'>Haskell</a> <a href='#'>OCaml</a>"
 
-    $scope.ProgrammigContestPlatform = "<u>Coding Contest Platform</u><br/><a href='#'>Topcoder</a> <a href='#'>code jam</a> <a href='http://codeforces.com/profile/thinkphp'>Codeforce</a> <a href='https://projecteuler.net/'>Project Euler</a> <a href='#'>Spoj</a> <a href='https://www.hackerrank.com/statescua?hr_r=1'>HackerRank</a> <a href='http://www.infoarena.ro/utilizator/thinkphp'>Infoarena</a> <a href='http://practice.geeksforgeeks.org/user-profile.php?user=thinkphp'>GeeksforGeeks</a> <a href='http://acm.timus.ru/author.aspx?id=228328'>Timus Online Judge</a>"
+    $scope.ProgrammigContestPlatform = "<u>Coding Contest Platform</u><br/><a href='#'>Topcoder</a> <a href='#'>code jam</a> <a href='http://codeforces.com/profile/thinkphp'>Codeforce</a> <a href='https://projecteuler.net/'>Project Euler</a> <a href='#'>Spoj</a> <a href='https://www.hackerrank.com/statescua?hr_r=1'>HackerRank</a> <a href='http://www.infoarena.ro/utilizator/thinkphp'>Infoarena</a> <a href='http://practice.geeksforgeeks.org/user-profile.php?user=thinkphp'>GeeksforGeeks</a> <a href='http://acm.timus.ru/author.aspx?id=228328'>Timus Online Judge</a> <a href='https://leetcode.com/statescua/'>Leetcode</a>"
 
     $scope.toys = "<u>Toys</u><br/> <a href='http://thinkphp.github.com/sin/'>sin</a> <a href='http://thinkphp.github.com/cos'>cos</a> <a href='http://thinkphp.github.com/ln'>ln</a> <a href='http://thinkphp.github.com/e'>Euler's Number</a> <a href='http://thinkphp.github.com/pi'>Monte Carlo Pi</a> <a href='http://thinkphp.github.com/pi'>Leibniz Pi</a> <a href='http://thinkphp.github.com/sqrt'>sqrt</a> <a href='http://thinkphp.ro/apps/geo/GeoIP/'>GeoIP</a> <a href='http://thinkphp.ro/apps/YQL/24ways.org/24-ways-2009/24way.org.html'>RSS Reader</a> <a href='http://webster.thinkphp.ro/'>webster</a> <a href='https://thinkphp.github.io/wikipedia-viewer/'>Wikipedia Viewer</a> <a href='https://mytodo.thinkphp.ro'>ToDoApp</a> <a href='https://ideone.com/lxYl8e'>ConnectedComponents</a> <a href='https://ideone.com/JUuKtX'>Goldbach</a> <a href='https://ideone.com/lWQlRm'>Line Equation</a> <a href='https://ideone.com/zXzjC8'>MissingPointParallelogram</a> <a href='https://github.com/thinkphp/Basic-Graph-Algorithms'>Graphs</a> <a href='https://ideone.com/Dgyo8q'>Collinear</a> <a href='https://ideone.com/imJbsP'>Quadratic Equation</a>"
 
