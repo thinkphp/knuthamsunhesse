@@ -144,7 +144,6 @@ body { position:relative;
 @media only screen and (max-width:360px){
 
        .icons a{background-size:24px 24px}
-
 }
 
 .icons a:hover { -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.2)) drop-shadow(0 4px 4px rgba(0,0,0,.1) );
@@ -152,16 +151,14 @@ body { position:relative;
 filter: drop-shadow(0 1px 1px rgba(0,0,0,.2))drop-shadow(0 4px 4px rgba(0,0,0,.1))}
 
 .icons .twitter{background-image:url(http://thinkphp.ro/svg/twitter.svg)}
-.icons .github{background-image:url(http://thinkphp.ro/svg/github.svg)}
+.icons .github{background-image:url(http://raw.githubusercontent.com/thinkphp/thinkphp.github.com/master/github.svg)}
 .icons .medium{background-image:url(http://roman.nurik.net/images/icon_medium.svg)}
 .icons .googleplus{background-image:url(http://roman.nurik.net/images/icon_googleplus.svg)}
 .icons .email{background-image:url(http://roman.nurik.net/images/icon_email.svg)}
 .icons .lastfm{background-image:url(http://thinkphp.ro/svg/lastfm.svg)}
-.icons .linkedin{background-image:url(http://thinkphp.ro/svg/linkedin.svg)}
-.icons .instagram{background-image:url(http://thinkphp.ro/svg/instagram.svg)}
+.icons .linkedin{background-image:url(https://github.com/thinkphp/thinkphp.github.com/blob/master/flickr.svg)}
+.icons .instagram{background-image:url()}
 .icons .flickr{background-image:url(http://thinkphp.ro/svg/flickr.svg)}
-.icons .pinterest{background-image:url(http://thinkphp.ro/svg/pinterest.svg)}
-.icons .skype{background-image:url(http://thinkphp.ro/svg/skype.svg)}
 .icons .xing{background-image:url(http://thinkphp.ro/svg/xing.svg)}
 
 .bottom{width:100%;background-color:#00BFA5}
