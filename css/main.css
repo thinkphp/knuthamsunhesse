@@ -150,16 +150,15 @@ body { position:relative;
 
 filter: drop-shadow(0 1px 1px rgba(0,0,0,.2))drop-shadow(0 4px 4px rgba(0,0,0,.1))}
 
-.icons .twitter{background-image:url(http://thinkphp.ro/svg/twitter.svg)}
-.icons .github{background-image:url(http://raw.githubusercontent.com/thinkphp/thinkphp.github.com/master/github.svg)}
+.icons .twitter{background-image:url(http://thinkphp.github.io/topsort/twitter.svg)}
+.icons .github{background-image:url(http://thinkphp.github.io/topsort/github.svg)}
 .icons .medium{background-image:url(http://roman.nurik.net/images/icon_medium.svg)}
-.icons .googleplus{background-image:url(http://roman.nurik.net/images/icon_googleplus.svg)}
 .icons .email{background-image:url(http://roman.nurik.net/images/icon_email.svg)}
-.icons .lastfm{background-image:url(http://thinkphp.ro/svg/lastfm.svg)}
-.icons .linkedin{background-image:url(https://github.com/thinkphp/thinkphp.github.com/blob/master/flickr.svg)}
-.icons .instagram{background-image:url()}
-.icons .flickr{background-image:url(http://thinkphp.ro/svg/flickr.svg)}
-.icons .xing{background-image:url(http://thinkphp.ro/svg/xing.svg)}
+.icons .lastfm{background-image:url(https://www.iconninja.com/files/351/183/629/last-lastfm-music-fm-as-icon.svg)}
+.icons .linkedin{background-image:url(http://thinkphp.github.io/topsort/linkedin.svg)}
+.icons .instagram{background-image:url(http://thinkphp.github.io/topsort/instagram.svg)}
+.icons .flickr{background-image:url(https://www.iconninja.com/files/351/183/629/last-lastfm-music-fm-as-icon.svg)}
+.icons .xing{background-image:url(https://cdn.freebiesupply.com/logos/large/2x/xing-icon-logo-png-transparent.png)}
 
 .bottom{width:100%;background-color:#00BFA5}
 

@@ -17,7 +17,7 @@ angular.module('myApp', ['ngSanitize'])
                     {"hrefLink":"https://www.linkedin.com/in/statescuadrian","classLink":"linkedin"},
                     {"hrefLink":"https://www.xing.com/profile/Adrian_Statescu","classLink":"xing"},
                     {"hrefLink":"https://medium.com/@thinkphp","classLink": "medium"},
-                    {"hrefLink":"http://lastfm2.thinkphp.ro","classLink": "lastfm"}] 
+                    {"hrefLink":"http://thinkphp.github.io/recent.lastfm.MooTools/","classLink": "lastfm"}] 
 
     $scope.email = "mergesortv@gmail.com";
 
