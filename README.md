@@ -1,5 +1,3 @@
-# http://adrianstatescu.ch
+## My domain hosted on App Engine
 
-[x] Algorithms + Data Structures = Programs
-
-## Pointer to https://knuthamsunhesse.appspot.com/
+#### Pointer to https://knuthamsunhesse.appspot.com/
